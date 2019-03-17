@@ -32,9 +32,9 @@ public class Bot {
 
     public static final String BRANCH_NAME = "DEV5";
     public static final String MILESTONE_VERSION = "0.1.0";
-    public static final String BUILD_VERSION = "ADP190901"; //Example - Alpha Version, Development Build, Private Beta, 2018, Week 52, Build 01 of that week = ADP185201
+    public static final String BUILD_VERSION = "ADP190901"; //Example - Alpha Version, Development Build, Private Beta, 2019, Week 9, Build 01 of that week = ADP185201
     public static final Integer BUILD_STRUCTURE = 1; // If there's a major code change which is breaking of old features, increment this.
-    public static final String BUILD_DATE = "27/12/18"; // dd/mm/yy
+    public static final String BUILD_DATE = "17/03/19"; // dd/mm/yy
 
     public static final String AUTHOR = "CloudG360";
     public static final String WEBSITE = "https://discordapp.com/";
