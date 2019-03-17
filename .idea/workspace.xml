@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b6e5e3d-be5a-4032-82a4-f96851942522" name="Default" comment="" />
+    <list default="true" id="0b6e5e3d-be5a-4032-82a4-f96851942522" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bot.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -105,16 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -161,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/events/EventManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/events/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cloudsbots/archseriest/archt5/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidConfigException.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidFormatException.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/PermissionDeniedException.java" />
@@ -200,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/database/textdb/TextDBAdapter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -693,14 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="46" lean-forward="false" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30226">
@@ -972,6 +966,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
