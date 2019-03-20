@@ -51,7 +51,7 @@ public class Main {
 
         ConfigurationFile cfg;
         try{
-            cfg = new ConfigurationFile(new File("./bot.cfgp"), "token");
+            cfg = new ConfigurationFile(new File("./bot.cfgp"), "token", "prefix");
         } catch (Exception err){
             Bot.getBot().getLogger().logRuntimeError("Bootloader/Config", "Unable to load required config file. Exiting process.");
             throw new RethrownException(err, true);
