@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b6e5e3d-be5a-4032-82a4-f96851942522" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandPlugins.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/PluginNotFoundException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/DisableReason.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/Plugin.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginPackaging.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/SystemPlugin.java" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/BehaviorManager.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/BehaviorManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandManager.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/CoreEventProcessor.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/CoreEventProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/CallableEvent.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/CallableEvent.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/DataEvent.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/DataEvent.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/Event.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/Event.java" />
-      <change beforePath="$PROJECT_DIR$/target/ArchT5-Latest.jar" afterPath="$PROJECT_DIR$/target/ArchT5-Latest.jar" />
-      <change beforePath="$PROJECT_DIR$/target/archt5-Alpha-1A01-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/archt5-Alpha-1A01-jar-with-dependencies.jar" />
-      <change beforePath="$PROJECT_DIR$/target/archt5-Alpha-1A01.jar" afterPath="$PROJECT_DIR$/target/archt5-Alpha-1A01.jar" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/Bot.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/Bot.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/Main.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/behaviorchunks/BehaviorManager.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/behaviorchunks/BehaviorManager.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandManager.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandManager.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/CoreEventProcessor.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/CoreEventProcessor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/Logger.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/Logger.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/database/textdb/TextDBAdapter.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/database/textdb/TextDBAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/CallableEvent.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/CallableEvent.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/DataEvent.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/DataEvent.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/Event$1.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/Event$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/Event.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/Event.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-    </list>
+    <list default="true" id="0b6e5e3d-be5a-4032-82a4-f96851942522" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -286,7 +244,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8 (1)" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="244" />
     <option name="y" value="-26" />
     <option name="width" value="980" />
@@ -349,56 +307,6 @@
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
               <item name="archseriest" type="462c0819:PsiDirectoryNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="behaviorchunks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -597,8 +505,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -612,7 +519,7 @@
       <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20948827" sideWeight="0.533123" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22014925" sideWeight="0.46687698" order="0" side_tool="true" content_ui="combo" x="988" y="89" width="660" height="763" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22014925" sideWeight="0.46687698" order="0" side_tool="true" content_ui="combo" x="988" y="89" width="660" height="763" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
