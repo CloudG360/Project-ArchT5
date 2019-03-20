@@ -27,7 +27,6 @@ public final class CommandPackaging extends Thread{
 
     @Override
     public void run() {
-        new CallableEvent("__SYS", "command.package.dispatch", new Pair<>("VERIF", Bot.getBot().getSession().toString())).call(EventChannel.SYSTEM, false);
         CommandManager.getCommandManager().registerCommandPackage(this);
         cmd.execute(msg);
         CommandManager.getCommandManager().removeCommandPackage(this);

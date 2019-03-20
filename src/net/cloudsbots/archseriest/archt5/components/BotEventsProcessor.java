@@ -47,7 +47,7 @@ public class BotEventsProcessor extends ListenerAdapter {
                 e.addField("Client Info", "=======================", false);
                 e.addField("Bot ID", Bot.getBot().getJDA().getSelfUser().getId(), true);
                 e.addField("Branch/Version", Bot.BRANCH_NAME+"/"+Bot.BUILD_VERSION, true);
-                e.addField("API Structure", Bot.BUILD_STRUCTURE.toString(), true);
+                e.addField("API Structure", String.valueOf(Bot.BUILD_STRUCTURE), true);
                 e.addField("Event Listeners", String.valueOf(Bot.getBot().getEventManager().getListeners().size()), true);
                 e.addField("Plugins", "Disabled", true);
                 e.addField("Misc", "=======================", false);

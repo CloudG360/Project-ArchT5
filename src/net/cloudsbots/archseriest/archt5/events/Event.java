@@ -5,6 +5,7 @@ import net.cloudsbots.archseriest.archt5.Bot;
 import net.cloudsbots.archseriest.archt5.components.Statistics;
 import net.cloudsbots.archseriest.archt5.components.Validator;
 import net.cloudsbots.archseriest.archt5.exceptions.PermissionDeniedException;
+import net.cloudsbots.archseriest.archt5.plugin.PluginPackaging;
 
 import java.util.*;
 
@@ -14,20 +15,21 @@ public abstract class Event {
     protected String pluginid;
     protected String eventid;
 
+    private PluginPackaging plg;
     private UUID uuid;
-
     private String returnaddress;
     private List<Pair<String, String>> tags;
 
-    public Event(String plugin, String id, Pair<String, String>... tags){
+    public Event(PluginPackaging plugin, String id, Pair<String, String>... tags){
         Validator.notNull(plugin, "Events cannot be initialised with a null plugin id.");
         Validator.notNull(plugin, "Events cannot be initialised with a null event id.");
 
         //Replace plugin id string with plugin class getting name.
-        this.id = "event."+plugin+"."+id;
-        this.pluginid = plugin;
+        this.id = "event."+plugin.getId()+"."+id;
+        this.pluginid = plugin.getId();
         this.eventid = id;
         this.tags = Arrays.asList(tags);
+        this.plg = plugin;
 
         uuid = UUID.randomUUID();
 
@@ -87,20 +89,17 @@ public abstract class Event {
     public UUID getEventUUID(){
         return uuid;
     }
-
     public String getReturnaddress() {
         return returnaddress;
     }
-
     public List<Pair<String, String>> getTags() {
         return tags;
     }
-
     public String getEventid() {
         return id;
     }
-
     public String getEventTypeid() { return eventid; }
+    public PluginPackaging getPlugin(){ return plg; }
 
     public int containsTag(String id){
         int i = 0;

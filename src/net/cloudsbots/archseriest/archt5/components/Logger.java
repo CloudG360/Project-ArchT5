@@ -18,7 +18,7 @@ public class Logger implements Thread.UncaughtExceptionHandler{
     public void uncaughtException(Thread t, Throwable e) {
         logRuntimeError("Exception", e.getMessage());
         for (StackTraceElement element: e.getStackTrace()) {
-            logAppend(element.getClassName()+"."+element.getMethodName()+":Line "+element.getLineNumber(), " -> ");
+            logAppend(element.getClassName()+"."+element.getMethodName()+":Line "+element.getLineNumber(), " >> ");
         }
 
         List<Throwable> causes = new ArrayList<>();
@@ -50,8 +50,8 @@ public class Logger implements Thread.UncaughtExceptionHandler{
         System.out.println("[" + LocalDateTime.now().toString() + "][INFO][" + location + "]: " + message[0]);
         if (message.length > 1){
             for (int i = 1; i < message.length; i++) {
-                log.add("..."+message[i]);
-                System.out.println("..."+message[i]);
+                log.add(" ->  "+message[i]);
+                System.out.println(" ->  "+message[i]);
             }
         }
         if(log.size() >= 1000){
@@ -62,8 +62,8 @@ public class Logger implements Thread.UncaughtExceptionHandler{
     public void logAppend(String location, String... message) {
         if (message.length > 0){
             for (int i = 0; i < message.length; i++) {
-                log.add("... @"+location+" "+message[i]);
-                System.out.println("... @"+location+" "+message[i]);
+                log.add(" ->  @"+location+" "+message[i]);
+                System.out.println(" ->  @"+location+" "+message[i]);
             }
         }
         if(log.size() >= 1000){
@@ -76,8 +76,8 @@ public class Logger implements Thread.UncaughtExceptionHandler{
         System.out.println("[" + LocalDateTime.now().toString() + "][WARN][" + location + "]: " + message[0]);
         if (message.length > 1){
             for (int i = 1; i < message.length; i++) {
-                log.add("..."+message[i]);
-                System.out.println("..."+message[i]);
+                log.add(" ->  "+message[i]);
+                System.out.println(" ->  "+message[i]);
             }
         }
         if(log.size() >= 1000){
@@ -92,8 +92,8 @@ public class Logger implements Thread.UncaughtExceptionHandler{
         System.out.println("[" + LocalDateTime.now().toString() + "][ERROR][" + location + "]: " + message[0]);
         if (message.length > 1){
             for (int i = 1; i < message.length; i++) {
-                log.add("..."+message[i]);
-                System.out.println("..."+message[i]);
+                log.add(" ->  "+message[i]);
+                System.out.println(" ->  "+message[i]);
             }
         }
         if(log.size() >= 1000){
@@ -108,8 +108,8 @@ public class Logger implements Thread.UncaughtExceptionHandler{
         System.out.println("[" + LocalDateTime.now().toString() + "][FATAL][" + location + "]: " + message[0]);
         if (message.length > 1){
             for (int i = 1; i < message.length; i++) {
-                log.add("..."+message[i]);
-                System.out.println("..."+message[i]);
+                log.add(" ->  "+message[i]);
+                System.out.println(" ->  "+message[i]);
             }
         }
 

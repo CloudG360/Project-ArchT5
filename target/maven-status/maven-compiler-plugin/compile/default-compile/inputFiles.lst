@@ -2,6 +2,7 @@ C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\beh
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\CommandClashException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\components\Logger.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\database\textdb\exceptions\DatabaseForbiddenActionException.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\plugin\PluginState.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\components\Validator.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\behaviorchunks\BehaviorManager.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\CommandManager.java
@@ -9,7 +10,9 @@ C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\com
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\database\textdb\exceptions\DatabaseUnreachableException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\components\BotEventsProcessor.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\events\CallableEvent.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\PluginNotFoundException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\InvalidConfigException.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\plugin\SystemPlugin.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\behaviorchunks\CoreBehaviors\BehaviorNotFound.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\database\textdb\exceptions\DatabasePermissionException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\events\EventChannel.java
@@ -19,11 +22,15 @@ C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\Mai
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\RethrownException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\CommandPackaging.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\events\Event.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\plugin\PluginPackaging.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\components\Statistics.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\Bot.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\Core\CommandPlugins.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\InvalidFormatException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\Core\CommandHelp.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\plugin\DisableReason.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\events\EventListener.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\plugin\Plugin.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\PermissionDeniedException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\Core\CommandBotStats.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\Command.java
@@ -31,5 +38,6 @@ C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\con
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\database\textdb\TextDBAdapter.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\database\textdb\TextDBFactory.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\events\DataEvent.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\plugin\PluginManager.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\components\UtilityFunctions.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\events\EventManager.java

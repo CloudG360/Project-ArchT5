@@ -14,7 +14,7 @@ public class CoreEventProcessor extends EventListener{
     @Override
     protected void globalChannelEvent(Event event, String id) {
         if(event.containsTag("AVOID_LOGS") < 0){
-            MessageEmbed embed =  new EmbedBuilder().setTitle("EVENT FIRED").setDescription("The event '"+event.getEventid()+"' was fired.").addField("Return Address", event.getReturnaddress(), true).addField("Tags", event.getTags().toString(), true).setColor(Color.cyan).build();
+            MessageEmbed embed =  new EmbedBuilder().setTitle("EVENT FIRED").setDescription("The event '"+event.getEventid()+"' was fired.\nReturn: "+event.getReturnaddress()).addField("Tags", ". "+event.getTags().toString(), true).setColor(Color.orange).build();
             Bot.getBot().getJDA().getTextChannelById("546319924599980044").sendMessage(embed).queue();
         }
     }
