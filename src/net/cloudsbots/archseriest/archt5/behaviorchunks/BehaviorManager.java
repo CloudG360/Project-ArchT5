@@ -3,16 +3,22 @@ package net.cloudsbots.archseriest.archt5.behaviorchunks;
 import javafx.util.Pair;
 import net.cloudsbots.archseriest.archt5.Bot;
 import net.cloudsbots.archseriest.archt5.Main;
+import net.cloudsbots.archseriest.archt5.behaviorchunks.CoreBehaviors.BehaviorCommandProcess;
 import net.cloudsbots.archseriest.archt5.behaviorchunks.CoreBehaviors.BehaviorNotFound;
 import net.cloudsbots.archseriest.archt5.components.Validator;
 import net.cloudsbots.archseriest.archt5.events.CallableEvent;
 import net.cloudsbots.archseriest.archt5.events.EventChannel;
+import net.cloudsbots.archseriest.archt5.exceptions.BehaviorNotFoundException;
 import net.cloudsbots.archseriest.archt5.exceptions.PermissionDeniedException;
+import net.cloudsbots.archseriest.archt5.plugin.Plugin;
 import net.cloudsbots.archseriest.archt5.plugin.PluginPackaging;
 import net.cloudsbots.archseriest.archt5.plugin.PluginState;
+import net.cloudsbots.archseriest.archt5.plugin.SystemPlugin;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public final class BehaviorManager {
 
@@ -22,6 +28,31 @@ public final class BehaviorManager {
     private String pass;
 
     public BehaviorManager(String pass){ this.pass = pass; }
+
+    public void defaultBehavior(Plugin plugin, String name, String pass){
+        if(name.toLowerCase().equals("cmd_pcs")){
+            behaviors.put(name.toLowerCase(), new BehaviorCommandProcess());
+        } else {
+            if(behaviors.containsKey(name.toLowerCase())){
+                Behavior b = behaviors.get(name.toLowerCase());
+                if(b.isProtected()){
+                    if(plugin instanceof SystemPlugin){
+                        behaviors.put(name.toLowerCase(), new BehaviorNotFound());
+                    } else if(plugin == behaviorParents.get(name.toLowerCase()).getPlugin()) {
+                        behaviors.put(name.toLowerCase(), new BehaviorNotFound());
+                    } else {
+                        if(b.unlock(pass)){
+                            behaviors.put(name.toLowerCase(), new BehaviorNotFound());
+                        } else {
+                            throw new PermissionDeniedException("You cannot default a protected behavior.");
+                        }
+                    }
+                } else {
+                    behaviors.put(name.toLowerCase(), new BehaviorNotFound());
+                }
+            }
+        }
+    }
 
     public void registerBehavior(String name, Behavior behavior, PluginPackaging plugin){ registerBehavior(name, behavior, plugin, ""); }
 
@@ -63,6 +94,16 @@ public final class BehaviorManager {
             Object[] a = {name};
             return new BehaviorNotFound().beginBehavior(a);
         }
+    }
+
+    public List<String> getPluginBehaviors(Plugin plugin){
+        List<String> list = new ArrayList<>();
+        for(Map.Entry<String, PluginPackaging> entry:behaviorParents.entrySet()){
+            if(entry.getValue().getPlugin() == plugin){
+                list.add(entry.getKey());
+            }
+        }
+        return list;
     }
 
     public static BehaviorManager getBehaviorManager(){

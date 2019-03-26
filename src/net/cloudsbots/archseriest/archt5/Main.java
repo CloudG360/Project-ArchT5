@@ -38,6 +38,7 @@ public class Main {
         plugin.getPlugin().setPackaging(plugin);
 
         PluginManager plgManager = new PluginManager(plugin);
+
         Bot.getBot().setPluginManager(plgManager);
 
         plugin.getPlugin().enablePlugin();
@@ -80,6 +81,17 @@ public class Main {
 
         new CallableEvent(plugin, "bot.ready", new Pair<>("VERIF", Bot.getBot().getSession().toString())).call(EventChannel.SYSTEM, false);
 
+        try {
+            if(!new File("./plugins/").exists()){ new File("./plugins/").mkdir(); }
+            File plugindir = new File("./plugins/");
+            for(File file: plugindir.listFiles()){
+                if(file.getName().endsWith(".jar")){
+                    Bot.getBot().getPluginManager().loadPlugin(file.getPath());
+                }
+            }
+        } catch (NullPointerException err){
+            Logger.getLogger().logRuntimeError("Bootloader/LoadPlugins", err.getMessage());
+        }
 
     }
 

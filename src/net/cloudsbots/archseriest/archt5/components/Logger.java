@@ -16,7 +16,7 @@ public class Logger implements Thread.UncaughtExceptionHandler{
 
     @Override
     public void uncaughtException(Thread t, Throwable e) {
-        logRuntimeError("Exception", e.getMessage());
+        logRuntimeError("Exception/"+e.getClass().getTypeName(), e.getMessage());
         for (StackTraceElement element: e.getStackTrace()) {
             logAppend(element.getClassName()+"."+element.getMethodName()+":Line "+element.getLineNumber(), " >> ");
         }

@@ -22,6 +22,7 @@ net\cloudsbots\archseriest\archt5\components\Validator.class
 net\cloudsbots\archseriest\archt5\events\EventChannel.class
 net\cloudsbots\archseriest\archt5\commands\CommandManager.class
 net\cloudsbots\archseriest\archt5\components\CoreEventProcessor.class
+net\cloudsbots\archseriest\archt5\exceptions\BehaviorNotFoundException.class
 net\cloudsbots\archseriest\archt5\database\textdb\TextDBFactory.class
 net\cloudsbots\archseriest\archt5\database\textdb\exceptions\DatabaseUnreachableException.class
 net\cloudsbots\archseriest\archt5\components\Logger.class

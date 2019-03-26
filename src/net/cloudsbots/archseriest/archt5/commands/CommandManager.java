@@ -11,9 +11,7 @@ import net.cloudsbots.archseriest.archt5.plugin.Plugin;
 import net.cloudsbots.archseriest.archt5.plugin.PluginPackaging;
 import net.dv8tion.jda.core.entities.Message;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 public class CommandManager {
 
@@ -51,6 +49,22 @@ public class CommandManager {
             cmdmap.remove(name.toLowerCase());
             commandOwnership.remove(name.toLowerCase());
         }
+    }
+
+    public void unregisterAll(Plugin plugin){
+        Iterator<Map.Entry<String, PluginPackaging>> i = commandOwnership.entrySet().iterator();
+        List<String> keys = new ArrayList<>();
+        while(i.hasNext()) {
+            Map.Entry<String, PluginPackaging> pair = i.next();
+            if (pair.getValue().getPlugin() == plugin) {
+                keys.add(pair.getKey());
+            }
+        }
+        for(String key:keys){
+            cmdmap.remove(key.toLowerCase());
+            commandOwnership.remove(key);
+        }
+
     }
 
     //TODO: Add a plugin based unregister which can unregister if you supply the plugin (Protects System)

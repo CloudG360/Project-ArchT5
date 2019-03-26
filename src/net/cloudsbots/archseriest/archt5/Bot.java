@@ -7,7 +7,9 @@ import net.cloudsbots.archseriest.archt5.components.Statistics;
 import net.cloudsbots.archseriest.archt5.components.UtilityFunctions;
 import net.cloudsbots.archseriest.archt5.events.EventManager;
 import net.cloudsbots.archseriest.archt5.exceptions.PermissionDeniedException;
+import net.cloudsbots.archseriest.archt5.plugin.DisableReason;
 import net.cloudsbots.archseriest.archt5.plugin.PluginManager;
+import net.cloudsbots.archseriest.archt5.plugin.PluginPackaging;
 import net.dv8tion.jda.core.JDA;
 
 import java.util.HashMap;
@@ -36,7 +38,7 @@ public class Bot {
 
     public static final String BRANCH_NAME = "DEV5";
     public static final String MILESTONE_VERSION = "0.1.0";
-    public static final String BUILD_VERSION = "ADP190901"; //Example - Alpha Version, Development Build, Private Beta, 2018, Week 52, Build 01 of that week = ADP185201
+    public static final String BUILD_VERSION = "ADP191201"; //Example - Alpha Version, Development Build, Private Beta, 2018, Week 52, Build 01 of that week = ADP185201
     public static final int BUILD_STRUCTURE = 1; // If there's a major code change which is breaking of old features, increment this.
     public static final String BUILD_DATE = "27/12/18"; // dd/mm/yy
 
@@ -99,6 +101,10 @@ public class Bot {
         getBot().getLogger().logInfo("CoreOp/Shutdown", String.valueOf(code));
 
         //Shutdown
+
+        for(PluginPackaging p:Bot.getBot().getPluginManager().getPlugins().values()){
+            p.getPlugin().disablePlugin(DisableReason.SHUTDOWN);
+        }
 
         String id = (code==0) ? "LOG": "CRASH";
 
