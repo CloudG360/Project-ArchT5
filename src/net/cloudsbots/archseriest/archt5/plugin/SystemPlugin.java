@@ -8,7 +8,7 @@ import net.cloudsbots.archseriest.archt5.commands.Core.CommandBotStats;
 import net.cloudsbots.archseriest.archt5.commands.Core.CommandHelp;
 import net.cloudsbots.archseriest.archt5.commands.Core.CommandPlugins;
 
-public class SystemPlugin extends Plugin{
+public final class SystemPlugin extends Plugin{
 
     @Override
     protected void onEnable() {
