@@ -25,6 +25,7 @@ C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\eve
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\plugin\PluginPackaging.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\BehaviorNotFoundException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\components\Statistics.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\InvalidPluginException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\Bot.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\Core\CommandPlugins.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\InvalidFormatException.java
@@ -35,10 +36,12 @@ C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\plu
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\exceptions\PermissionDeniedException.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\Core\CommandBotStats.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\Command.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\Core\CommandCoreInfo.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\config\ConfigurationFile.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\database\textdb\TextDBAdapter.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\database\textdb\TextDBFactory.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\events\DataEvent.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\plugin\PluginManager.java
+C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\commands\Core\CommandTasks.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\components\UtilityFunctions.java
 C:\Users\wills\Documents\GitHub\archt5\src\net\cloudsbots\archseriest\archt5\events\EventManager.java

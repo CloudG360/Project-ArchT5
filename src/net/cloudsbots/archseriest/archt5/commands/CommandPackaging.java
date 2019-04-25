@@ -14,21 +14,24 @@ public final class CommandPackaging extends Thread{
     private UUID uuid;
     private Message msg;
     private Command cmd;
+    private String[] args;
 
-    public CommandPackaging(Message message, Command command, UUID uuid){
+    public CommandPackaging(Message message, String[] args, Command command, UUID uuid){
         super();
         Validator.notNull(message, "Command Packaging [message] cannot be null");
+        Validator.notNull(args, "Command Packaging [args] cannot be null");
         Validator.notNull(command, "Command Packaging [command] cannot be null");
         Validator.notNull(uuid, "Command Packaging [uuid] cannot be null");
         this.uuid = uuid;
         this.msg = message;
         this.cmd = command;
+        this.args = args;
     }
 
     @Override
     public void run() {
         CommandManager.getCommandManager().registerCommandPackage(this);
-        cmd.execute(msg);
+        cmd.execute(msg, args);
         CommandManager.getCommandManager().removeCommandPackage(this);
     }
 

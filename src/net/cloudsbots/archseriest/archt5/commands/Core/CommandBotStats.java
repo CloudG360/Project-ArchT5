@@ -11,8 +11,18 @@ import java.awt.*;
 
 public class CommandBotStats extends Command {
 
+    /**
+     * Runs the command !botstats. This command shows the statistics the bot measures via the Statistics
+     * Manager. It just tallies actions and is included with the new !coreinfo so it's only really useful
+     * if you set the permissions of !coreinfo to admins only.
+     *
+     * Version Target: ADP19 Q1 Major
+     *
+     * @param message - Original message
+     * @param args - Split command
+     */
     @Override
-    protected void run(Message message) {
+    protected void run(Message message, String[] args) {
         EmbedBuilder e = new EmbedBuilder().setTitle("Statistics").setDescription("Here are some statistics the bot logs while operating.").setColor(Color.yellow);
         e.addField("Running since:", Statistics.getStatisticsHub().getStartTime(), true);
         e.addField("Behaviors Ran:", String.valueOf(Statistics.getStatisticsHub().getBehaviorsRan()), true);
