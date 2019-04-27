@@ -81,17 +81,19 @@ public class Main {
 
         new CallableEvent(plugin, "bot.ready", new Pair<>("VERIF", Bot.getBot().getSession().toString())).call(EventChannel.SYSTEM, false);
 
-        try {
-            if(!new File("./plugins/").exists()){ new File("./plugins/").mkdir(); }
-            File plugindir = new File("./plugins/");
-            for(File file: plugindir.listFiles()){
-                if(file.getName().endsWith(".jar")){
+
+        if(!new File("./plugins/").exists()){ new File("./plugins/").mkdir(); }
+        File plugindir = new File("./plugins/");
+        for(File file: plugindir.listFiles()){
+            if(file.getName().endsWith(".jar")){
+                try {
                     Bot.getBot().getPluginManager().loadPlugin(file.getPath());
+                } catch (Exception err) {
+                    Logger.getLogger().uncaughtException(Thread.currentThread(), err);
                 }
             }
-        } catch (NullPointerException err){
-            Logger.getLogger().logRuntimeError("Bootloader/LoadPlugins", err.getMessage());
         }
+
 
     }
 

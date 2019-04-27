@@ -24,7 +24,7 @@ public class BehaviorCommandProcess extends Behavior {
             String[] command = text.substring(prefix.length()).split(" ");
 
             if(CommandManager.getCommandManager().getCmdmap().keySet().contains(command[0].toLowerCase())){
-                CommandPackaging cmdpkg = new CommandPackaging((Message) parameters[1], CommandManager.getCommandManager().getCmdmap().get(command[0].toLowerCase()), UUID.randomUUID());
+                CommandPackaging cmdpkg = new CommandPackaging((Message) parameters[1], command, CommandManager.getCommandManager().getCmdmap().get(command[0].toLowerCase()), UUID.randomUUID());
                 cmdpkg.start();
             }
 

@@ -23,7 +23,17 @@ public class CommandManager {
     private String pass;
     public CommandManager(String pass){ this.pass = pass; }
 
+    /**
+     * Unregisters all commands owned by a specified plugin. You need the plugin itself to
+     * unregister them.
+     *
+     * @param plugin - The plugin to have commands unregistered
+     */
     public void registerCommand(String name, Command command, PluginPackaging plugin){
+        /*TODO: Regarding clashes:
+         * Idea: Give each clashing command a new identity like "testplugin:help" and "core:help"
+         * There should still be an option to remove the clashing command. Like it has the option to overwrite.
+         */
         if(cmdmap.keySet().contains(name.toLowerCase())){
             cmdmap.remove(name.toLowerCase());
             commandOwnership.remove(name.toLowerCase());
@@ -42,6 +52,8 @@ public class CommandManager {
      * only here for people who want to remove commands part of the core system or remove another plugin's command
      * without a clash. Otherwise, don't use this. Deprecated functions suggest that they shouldn't be used or
      * there's a better way.
+     *
+     * @param name - Name of the command.
      */
     @Deprecated
     public void unregisterCommand(String name){
@@ -51,6 +63,12 @@ public class CommandManager {
         }
     }
 
+    /**
+     * Unregisters all commands owned by a specified plugin. You need the plugin itself to
+     * unregister them.
+     *
+     * @param plugin - The plugin to have commands unregistered
+     */
     public void unregisterAll(Plugin plugin){
         Iterator<Map.Entry<String, PluginPackaging>> i = commandOwnership.entrySet().iterator();
         List<String> keys = new ArrayList<>();
@@ -76,6 +94,11 @@ public class CommandManager {
     public HashMap<String, Command> getCmdmap() { return cmdmap; }
     public HashMap<UUID, CommandPackaging> getCommandPackages() { return commandPackages; }
 
+    /**
+     * Registers a command package onto process list.
+     *
+     * @param packaging - The packaging to register
+     */
     public void registerCommandPackage(CommandPackaging packaging){ commandPackages.put(packaging.getUuid(), packaging); }
     public void removeCommandPackage(CommandPackaging packaging){ commandPackages.remove(packaging.getUuid()); }
 }

@@ -33,14 +33,14 @@ public class BotEventsProcessor extends ListenerAdapter {
         Statistics.getStatisticsHub().incrementMessagesProcessed();
 
         //Hard Coded to stop Plugins from deleting it.
-        if(event.getMessage().getContentRaw().equals("ArchT5! xstop")){
+        if(event.getMessage().getContentRaw().equals("!xstop")){
             if(event.getAuthor().getId().equals("167516428767854592")) {
                 Bot.getBot().getLogger().logInfo("Commands/Hardcoded", "Stopping bot via hardcoded command.", "Shutdown initiated by <@"+event.getAuthor().getId()+">");
                 Bot.shutdown(1000);
             }
             return;
         }
-        if(event.getMessage().getContentRaw().equals("ArchT5! xinfo")){
+        if(event.getMessage().getContentRaw().equals("!xinfo")){
             if(event.getAuthor().getId().equals("167516428767854592")) {
                 Bot.getBot().getLogger().logInfo("Commands/Hardcoded", "Showing bot info via hardcoded command. ", "@NOTICE: Contains sensitive info - Shouldn't be public. (Token)");
                 EmbedBuilder e = new EmbedBuilder().setTitle("Bot Info (Development)").setDescription("Do not use for regular use. Only use when modifying the bot's source code as it contains sensitive components.");
@@ -57,7 +57,7 @@ public class BotEventsProcessor extends ListenerAdapter {
             }
             return;
         }
-        if(event.getMessage().getContentRaw().equals("ArchT5! xdump")){
+        if(event.getMessage().getContentRaw().equals("!xdump")){
             Bot.getBot().getLogger().logInfo("Commands/Hardcoded", "Dumping log on request.", "@NOTICE: May contain sensitive info.");
             Bot.getBot().getLogger().dumpLog("FORCE", UtilityFunctions.dateString());
             return;

@@ -14,6 +14,11 @@ import java.util.UUID;
 
 public class Logger implements Thread.UncaughtExceptionHandler{
 
+    public Logger(){
+        log = new ArrayList<>();
+    }
+
+
     @Override
     public void uncaughtException(Thread t, Throwable e) {
         logRuntimeError("Exception/"+e.getClass().getTypeName(), e.getMessage());
@@ -43,7 +48,7 @@ public class Logger implements Thread.UncaughtExceptionHandler{
     public static Logger getLogger(){ return Bot.getBot().getLogger(); }
 
 
-    private List<String> log = new ArrayList<>();
+    private List<String> log;
 
     public void logInfo(String location, String... message) {
         log.add("[" + LocalDateTime.now().toString() + "][INFO][" + location + "]: " + message[0]);

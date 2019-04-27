@@ -22,7 +22,7 @@ public class Bot {
 
     static {
         log = new Logger();
-        Thread.setDefaultUncaughtExceptionHandler(log);
+        //Thread.setDefaultUncaughtExceptionHandler(log);
     }
 
     private String pass;
