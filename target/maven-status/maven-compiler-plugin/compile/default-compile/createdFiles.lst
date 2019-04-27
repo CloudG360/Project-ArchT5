@@ -1,3 +1,4 @@
+net\cloudsbots\archseriest\archt5\plugin\PluginManager$convertiontype.class
 net\cloudsbots\archseriest\archt5\behaviorchunks\BehaviorManager.class
 net\cloudsbots\archseriest\archt5\commands\Core\CommandTasks.class
 net\cloudsbots\archseriest\archt5\plugin\PluginManager.class
@@ -29,6 +30,7 @@ net\cloudsbots\archseriest\archt5\plugin\PluginManager$PluginLoadData.class
 net\cloudsbots\archseriest\archt5\exceptions\InvalidPluginException.class
 net\cloudsbots\archseriest\archt5\events\DataEvent.class
 net\cloudsbots\archseriest\archt5\exceptions\InvalidConfigException.class
+net\cloudsbots\archseriest\archt5\plugin\PluginManager$PluginJarData.class
 net\cloudsbots\archseriest\archt5\behaviorchunks\CoreBehaviors\BehaviorNotFound.class
 net\cloudsbots\archseriest\archt5\commands\Command.class
 net\cloudsbots\archseriest\archt5\commands\Core\CommandCoreInfo.class
@@ -43,6 +45,7 @@ net\cloudsbots\archseriest\archt5\events\Event.class
 net\cloudsbots\archseriest\archt5\components\CoreEventProcessor.class
 net\cloudsbots\archseriest\archt5\exceptions\BehaviorNotFoundException.class
 net\cloudsbots\archseriest\archt5\database\textdb\exceptions\DatabasePermissionException.class
+net\cloudsbots\archseriest\archt5\plugin\PluginManager$1.class
 net\cloudsbots\archseriest\archt5\exceptions\InvalidFormatException.class
 net\cloudsbots\archseriest\archt5\commands\CommandPackaging.class
 net\cloudsbots\archseriest\archt5\behaviorchunks\Behavior.class

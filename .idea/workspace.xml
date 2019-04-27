@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6e5e3d-be5a-4032-82a4-f96851942522" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandCoreInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandTasks.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidPluginException.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorCommandProcess.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorCommandProcess.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Command.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Command.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandManager.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandBotStats.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandBotStats.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandPlugins.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandPlugins.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java" />
       <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java" />
-      <change beforePath="$PROJECT_DIR$/target/ArchT5-Latest.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/archt5-Alpha-1A01-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/archt5-Alpha-1A01-jar-with-dependencies.jar" />
-      <change beforePath="$PROJECT_DIR$/target/archt5-Alpha-1A01.jar" afterPath="$PROJECT_DIR$/target/archt5-Alpha-1A01.jar" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/Main.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorCommandProcess.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorCommandProcess.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Command.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Command.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandManager.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandManager.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Core/CommandBotStats.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Core/CommandBotStats.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/Logger.class" afterPath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/Logger.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,7 +19,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="1360">
               <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
               <folding />
             </state>
@@ -58,7 +29,7 @@
       <file leaf-file-name="Bot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1045">
+            <state relative-caret-position="187">
               <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding />
             </state>
@@ -78,19 +49,25 @@
       <file leaf-file-name="PluginManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="182" column="25" lean-forward="true" selection-start-line="182" selection-start-column="25" selection-end-line="182" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="211" column="70" lean-forward="true" selection-start-line="211" selection-start-column="70" selection-end-line="211" selection-end-column="70" />
+              <folding>
+                <element signature="e#2663#2664#0" expanded="true" />
+                <element signature="e#2690#2691#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/ClassLoader.java">
+      <file leaf-file-name="InvalidConfigException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidConfigException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="762" column="0" lean-forward="false" selection-start-line="762" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="102">
+              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,8 +75,8 @@
       <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="340">
+              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
                 <element signature="e#494#495#0" expanded="true" />
                 <element signature="e#533#534#0" expanded="true" />
@@ -203,8 +180,8 @@
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Command.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandManager.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java" />
       </list>
     </option>
   </component>
@@ -271,9 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -434,6 +408,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -630,14 +607,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29319954" sideWeight="0.30063966" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2954292" sideWeight="0.30597016" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1761427" sideWeight="0.4402985" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29319954" sideWeight="0.6993604" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2954292" sideWeight="0.69402987" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20948827" sideWeight="0.533123" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26012793" sideWeight="0.46687698" order="0" side_tool="true" content_ui="combo" x="988" y="89" width="660" height="763" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26812366" sideWeight="0.46687698" order="0" side_tool="true" content_ui="combo" x="988" y="89" width="660" height="763" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -665,7 +642,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Commands/Cmd.java" />
     <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorNotFound.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -888,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,9 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -932,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,10 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6885">
           <caret line="446" column="11" lean-forward="false" selection-start-line="446" selection-start-column="11" selection-end-line="446" selection-end-column="11" />
-          <folding>
-            <element signature="e#15020#15021#0" expanded="false" />
-            <element signature="e#15084#15085#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,20 +955,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1045">
+        <state relative-caret-position="187">
           <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
@@ -1016,7 +965,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="12954">
           <caret line="762" column="0" lean-forward="false" selection-start-line="762" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
           <folding />
         </state>
@@ -1024,17 +973,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="1360">
           <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidConfigException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="182" column="25" lean-forward="true" selection-start-line="182" selection-start-column="25" selection-end-line="182" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="211" column="70" lean-forward="true" selection-start-line="211" selection-start-column="70" selection-end-line="211" selection-end-column="70" />
+          <folding>
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2690#2691#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
