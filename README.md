@@ -65,17 +65,27 @@ Supported types include:
  - uint (Unsigned int)
  - array (Value should have items seperated by ",")
  - map (Value is like an array but each item should have a key and a value seperated by a ":")
- - json (Not quite supported)
 
-### TextDB
-Unfinished. Will be documented fully on the plugin release. It's a "replacement" for regular databases, for example if a database goes offline and you need a backup. It's also useful for smaller Databases.
+### ArchTasks
 
+### TriArch (Scripting lang)
+WIP
 
 ### And a few more which are generally self explanatory like:
  - CommandManager (A simple command manager with help, management, and listing)
  - Multichannel Event Loop (Events which can target channels which listeners can ignore)
  - Logging (A fancy logging system cause why not.)
- - Behaviors (Reprogrammable parts of the system which plugins can fully replace)
-  - Behaviors are slowly being added as bot components get finalized so there aren't many.
-  - We hope behaviors are adopted by plugins to make systems better.
-  - One of the current reprogrammable parts is the command dispatcher. It provides a raw command (Message For)
+
+---
+
+### A few things planned have also been dropped to like:
+ - Behaviors
+  - They're fully implemented and in the latest build but have been deprecated.
+  - The core has been seperated from this system so Behaviors only work between plugins.
+ - TextDB
+  - Never recieved a full implementation.
+  - There are tons of alternatives, some which do the same thing but better. More Database APIs will be added in the future with simpler interfaces.
+ - ConfigPlus json support
+  - Do I even have to explain how stupid of an idea that is? Just use json files.
+  
+The ideas above are not planned to be reimplemented as they were removed because they were either replaced by something better or were just stupid ideas.

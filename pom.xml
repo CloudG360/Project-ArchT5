@@ -24,7 +24,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>net.cloudsbots.archseriest.archt5.Main</mainClass>
+                            <mainClass>io.cloudsbots.arch.archt5.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -43,7 +43,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>net.cloudsbots.archseriest.archt5.Main</mainClass>
+                            <mainClass>io.cloudsbots.arch.archt5.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

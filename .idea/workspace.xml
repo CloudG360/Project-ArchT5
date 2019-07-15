@@ -2,95 +2,217 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6e5e3d-be5a-4032-82a4-f96851942522" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java" afterPath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java" />
+      <change afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandProcessThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/debug/CommandListTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/UtilityFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/tasks/ArchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/tasks/PreTaskScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/tasks/TaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archt5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/archt5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/Behavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/Behavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/BehaviorManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/BehaviorManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/Bh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/Bh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorCommandProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/CoreBehaviors/BehaviorNotFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandPackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandBotStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandBotStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandCoreInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandCoreInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandPlugins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandPlugins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/BotEventsProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/CoreEventProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/CoreEventProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/UtilityFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/config/ConfigurationFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/config/ConfigurationFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/database/textdb/TextDBAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/database/textdb/TextDBFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/database/textdb/exceptions/DatabaseForbiddenActionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/database/textdb/exceptions/DatabasePermissionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/database/textdb/exceptions/DatabaseUnreachableException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/CallableEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/CallableEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/DataEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/DataEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/EventChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/EventChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/EventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/EventManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/EventManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/BehaviorNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/BehaviorNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/CommandClashException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/CommandClashException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidConfigException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/InvalidConfigException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/InvalidFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidPluginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/InvalidPluginException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/PermissionDeniedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/PermissionDeniedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/PluginNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/PluginNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/RethrownException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/RethrownException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/DisableReason.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/DisableReason.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/Plugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/PluginManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/PluginPackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/PluginState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/SystemPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/SystemPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ArchT5-Latest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archt5-Alpha-1A01-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archt5-Alpha-1A01.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/Bot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/behaviorchunks/Behavior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/behaviorchunks/BehaviorManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/behaviorchunks/Bh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorCommandProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Core/CommandBotStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/CoreEventProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/UtilityFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/components/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/config/ConfigurationFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/database/textdb/TextDBAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/database/textdb/TextDBFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/database/textdb/exceptions/DatabaseForbiddenActionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/database/textdb/exceptions/DatabasePermissionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/database/textdb/exceptions/DatabaseUnreachableException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/CallableEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/DataEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/Event$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/EventChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/EventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/EventManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/events/EventManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/exceptions/CommandClashException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/exceptions/InvalidConfigException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/exceptions/InvalidFormatException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/exceptions/PermissionDeniedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cloudsbots/archseriest/archt5/exceptions/RethrownException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="227">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SystemPlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/SystemPlugin.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PluginManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandProcessThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="211" column="70" lean-forward="true" selection-start-line="211" selection-start-column="70" selection-end-line="211" selection-end-column="70" />
+            <state relative-caret-position="314">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#2663#2664#0" expanded="true" />
-                <element signature="e#2690#2691#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvalidConfigException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidConfigException.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandPackaging.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/BehaviorManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandHelp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/tasks/TaskManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/PluginManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-              <folding>
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandHelp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="120" lean-forward="false" selection-start-line="18" selection-start-column="120" selection-end-line="18" selection-end-column="120" />
-              <folding />
+            <state relative-caret-position="561">
+              <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -118,38 +240,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../Forge MDK" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/UtilityFunctions.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Validator.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/CoreEventProcessor.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/BotEventsProcessor.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/CommandProcess.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Logger.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Commands/Cmd.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Commands/Command.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/CommandClashException.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/EventChannel.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/EventListener.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Commands/CommandManager.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Commands/Core/CommandHelp.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/UtilityFunctions.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Statistics.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/Bh.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/Behavior.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorNotFound.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Validator.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/database/textdb/TextDBAdapter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/DisableReason.java" />
@@ -159,29 +255,45 @@
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/DataEvent.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/CallableEvent.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/CoreEventProcessor.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/Event.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/config/ConfigurationFile.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/BehaviorNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/BehaviorManager.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/Plugin.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/SystemPlugin.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginLoadData.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidPluginException.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandKill.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorCommandProcess.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.java" />
-        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandTasks.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandCoreInfo.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandBotStats.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandPlugins.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Command.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/Behavior.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/UtilityFunctions.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/tasks/PreTaskScheduler.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/debug/CommandListTasks.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/tasks/ArchTask.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Validator.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/EventListener.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/Event.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/tasks/TaskManager.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/SystemPlugin.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandTasks.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/BehaviorManager.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandProcessThread.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.java" />
+        <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java" />
         <option value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java" />
+        <option value="$PROJECT_DIR$/src/io/cloudsbots/archseriest/archt5/commands/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/BehaviorManager.java" />
+        <option value="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/PluginManager.java" />
+        <option value="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/Main.java" />
+        <option value="$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandProcessThread.java" />
       </list>
     </option>
   </component>
@@ -229,26 +341,15 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,39 +366,39 @@
               <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
+              <item name="arch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
+              <item name="arch" type="462c0819:PsiDirectoryNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
+              <item name="arch" type="462c0819:PsiDirectoryNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="behaviorchunks" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -305,9 +406,9 @@
               <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
+              <item name="arch" type="462c0819:PsiDirectoryNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="behaviorchunks" type="462c0819:PsiDirectoryNode" />
               <item name="CoreBehaviors" type="462c0819:PsiDirectoryNode" />
@@ -316,109 +417,27 @@
               <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
               <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
+              <item name="arch" type="462c0819:PsiDirectoryNode" />
               <item name="archt5" type="462c0819:PsiDirectoryNode" />
               <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="textdb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archt5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudsbots" type="462c0819:PsiDirectoryNode" />
-              <item name="archseriest" type="462c0819:PsiDirectoryNode" />
-              <item name="archt5" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/debug" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/ArchT5-Latest.jar" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -427,6 +446,10 @@
       <recent name="net.cloudsbots.archseriest.archt5.behaviorchunks.CoreBehaviors" />
       <recent name="net.cloudsbots.archseriest.archt5.events" />
       <recent name="net.cloudsbots.archseriest.archt5.database.textdb.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\archt5\src\net\cloudsbots\archseriest\archt5\commands\debug" />
+      <recent name="D:\archt5\src\net\cloudsbots\archseriest\archt5" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -441,74 +464,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.Build &amp; Launch">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
+  <component name="RunManager" selected="Maven.Compile Core">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Build &amp; Launch" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="Build &amp; Launch" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/ArchT5-Latest.jar" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\wills\Documents\GitHub\00_Test\ArchT5" />
+      <option name="WORKING_DIRECTORY" value="D:\00_Test\ArchT5" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8 (1)" />
-      <envs />
-      <method>
+      <method v="2">
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="Compile Core" run_configuration_type="MavenRunConfiguration" />
       </method>
     </configuration>
-    <configuration name="Launch Latest Build" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="Launch Latest Build" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/ArchT5-Latest.jar" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\wills\Documents\GitHub\00_Test\ArchT5" />
+      <option name="WORKING_DIRECTORY" value="D:\00_Test\ArchT5" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8 (1)" />
-      <envs />
+      <method v="2" />
     </configuration>
-    <configuration name="Test (Full)" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="Test (Full)" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/ArchT5-Latest.jar" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\wills\Documents\GitHub\00_Test\ArchT5" />
+      <option name="WORKING_DIRECTORY" value="D:\00_Test\ArchT5" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8 (1)" />
-      <envs />
-      <method>
+      <method v="2">
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="Compile Core" run_configuration_type="MavenRunConfiguration" />
       </method>
     </configuration>
@@ -527,6 +524,7 @@
                 <option value="package" />
               </list>
             </option>
+            <option name="pomFileName" />
             <option name="profilesMap">
               <map />
             </option>
@@ -535,56 +533,32 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JAR Application.Test (Full)" />
-      <item index="1" class="java.lang.String" itemvalue="JAR Application.Launch Latest Build" />
-      <item index="2" class="java.lang.String" itemvalue="JAR Application.Build &amp; Launch" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.Compile Core" />
+    <list>
+      <item itemvalue="JAR Application.Test (Full)" />
+      <item itemvalue="JAR Application.Launch Latest Build" />
+      <item itemvalue="JAR Application.Build &amp; Launch" />
+      <item itemvalue="Maven.Compile Core" />
     </list>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -599,401 +573,131 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2954292" sideWeight="0.30597016" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1761427" sideWeight="0.4402985" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2954292" sideWeight="0.69402987" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20948827" sideWeight="0.533123" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26812366" sideWeight="0.46687698" order="0" side_tool="true" content_ui="combo" x="988" y="89" width="660" height="763" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" order="0" sideWeight="0.5023622" side_tool="true" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" x="988" y="89" width="660" height="763" id="Project" order="1" sideWeight="0.4976378" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="2" sideWeight="0.49751243" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Terminal" order="8" sideWeight="0.53067994" weight="0.20948827" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6934968" visible="true" weight="0.29444444" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.3065032" side_tool="true" visible="true" weight="0.29444444" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Maven Projects" order="8" sideWeight="0.4402985" weight="0.1761427" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/archt5" />
     </ignored-roots>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorNotFound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="34" lean-forward="false" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/CommandClashException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/PermissionDeniedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/EventManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/Bh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/database/textdb/TextDBAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="66" column="87" lean-forward="false" selection-start-line="66" selection-start-column="87" selection-end-line="66" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/database/textdb/TextDBFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/EventChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/DataEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/events/CallableEvent.java">
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/InvalidFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
-          <caret line="2025" column="18" lean-forward="false" selection-start-line="2025" selection-start-column="18" selection-end-line="2025" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/config/ConfigurationFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="79" column="97" lean-forward="false" selection-start-line="79" selection-start-column="97" selection-end-line="79" selection-end-column="97" />
+          <caret line="2025" column="18" selection-start-line="2025" selection-start-column="18" selection-end-line="2025" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/zip/ZipFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="308" column="20" lean-forward="false" selection-start-line="308" selection-start-column="20" selection-end-line="308" selection-end-column="20" />
+          <caret line="308" column="20" selection-start-line="308" selection-start-column="20" selection-end-line="308" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/jar/JarFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="222" column="29" lean-forward="false" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
+          <caret line="222" column="29" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/PluginNotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/PluginNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/BehaviorNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/BehaviorNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginLoadData.java" />
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginPackaging.java">
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/PluginPackaging.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="90" lean-forward="false" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/DisableReason.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/Plugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/RethrownException.java">
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/RethrownException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidPluginException.java">
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/InvalidPluginException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/UtilityFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/CoreEventProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/BotEventsProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/CoreBehaviors/BehaviorCommandProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/Behavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/behaviorchunks/BehaviorManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="75" lean-forward="false" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandCoreInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandBotStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="120" lean-forward="false" selection-start-line="18" selection-start-column="120" selection-end-line="18" selection-end-column="120" />
-          <folding />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6885">
-          <caret line="446" column="11" lean-forward="false" selection-start-line="446" selection-start-column="11" selection-end-line="446" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandPackaging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/CommandManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Core/CommandPlugins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/commands/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/SystemPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Bot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
+          <caret line="446" column="11" selection-start-line="446" selection-start-column="11" selection-end-line="446" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12954">
-          <caret line="762" column="0" lean-forward="false" selection-start-line="762" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
-          <folding />
+          <caret line="762" selection-start-line="762" selection-end-line="762" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/components/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/exceptions/InvalidConfigException.java">
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/exceptions/InvalidConfigException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
@@ -1001,13 +705,299 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/cloudsbots/archseriest/archt5/plugin/PluginManager.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="552">
+            <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="211" column="70" lean-forward="true" selection-start-line="211" selection-start-column="70" selection-end-line="211" selection-end-column="70" />
+        <state relative-caret-position="553">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandPlugins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandCoreInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandBotStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/Bh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
-            <element signature="e#2663#2664#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/DisableReason.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/config/ConfigurationFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="79" column="97" selection-start-line="79" selection-start-column="97" selection-end-line="79" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/UtilityFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/EventManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/EventChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/EventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/CallableEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/CoreEventProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/tasks/PreTaskScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/tasks/ArchTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/CoreBehaviors/BehaviorNotFound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/debug/CommandListTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/SystemPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/Behavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/components/BotEventsProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/events/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/Plugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/PluginState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/tasks/TaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/Core/CommandTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/BehaviorManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/behaviorchunks/CoreBehaviors/BehaviorCommandProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/plugin/PluginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandPackaging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/cloudsbots/arch/archt5/commands/CommandProcessThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
