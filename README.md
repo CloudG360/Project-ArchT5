@@ -1,5 +1,11 @@
 # Project-ArchT5
 
+## ARCHIVAL NOTICE!
+
+This project is now abandoned as I've moved onto other projects and JDA has updated over time so, while some of the code may be reusable (And of a higher quality than other old projects), I've deemed it not worthy of keeping this repo active. Feel free to fork and use the code however you want. No need to ask for permission!
+
+---
+
 ArchT5 is a Java based core which developers can easily build their Discord bots around quickly without having to worry about backend management. It's highly modifiable while still being secure so it's friendly to both developers which want a powerful yet simple API and users which want to ensure the plugins they're using are safe and will not destroy their server.
 
 The ArchT5 structure is based off the [JDA REST API](https://github.com/DV8FromTheWorld/JDA) created by [@DV8FromTheWorld](https://github.com/DV8FromTheWorld) and it uses the current latest release. Literally anything which directly interacts with Discord requires usage of the API so it's recommended you look through their documentation. An interface layer is being worked on which should make certain tasks easier/cleaner for developers but that's not a priority due to everything being possible already. You may wonder after reading this "So why is ArchT5 here?" - We're here just to make some parts of development easier cause who wants to write a command system each time. Plus, mixing and matching of plugins becomes readily available so you don't need to write a components system yourself! That's why we're here.
